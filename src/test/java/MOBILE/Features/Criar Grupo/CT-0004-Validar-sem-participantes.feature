@@ -22,4 +22,5 @@ Funcionalidade: Criar Grupo
     Cenario: Validar a criação do novo grupo sem participantes
         Quando clico no botão "Novo grupo"
             E não seleciono entre 1 e 256 participantes
-        Entao visualizo a mensagem "Pelo menos 1 contato deve ser selecionado"
+        Entao visualizo a tela de "Novo grupo"
+        E visualizo a mensagem "Pelo menos 1 contato deve ser selecionado" 
