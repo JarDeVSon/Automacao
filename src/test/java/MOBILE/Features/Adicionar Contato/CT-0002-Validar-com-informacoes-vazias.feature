@@ -24,4 +24,4 @@ Funcionalidade: Adicionar Contato
             E não insiro o Nome "", Telefone ""
             E clico em "Salvar"
         Entao visualizo a tela de "Contatos"
-            Mas sem o contato salvo
+            E sem o contato salvo
