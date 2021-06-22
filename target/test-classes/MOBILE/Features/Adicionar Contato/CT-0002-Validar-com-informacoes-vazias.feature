@@ -17,6 +17,7 @@ Funcionalidade: Adicionar Contato
             E acesso a tela de "Contatos"
             E clico no botão "Novo Contato" na tela "Contatos"
     CT-0002
+    @sprint1
     Cenario: Validar a adição do novo contato no Whatsapp com as informações vazias
         Quando acesso a tela "Contatos"
             E seleciono a opção "Novo contato"

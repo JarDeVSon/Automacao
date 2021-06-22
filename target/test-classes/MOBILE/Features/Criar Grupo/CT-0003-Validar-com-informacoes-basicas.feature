@@ -18,7 +18,9 @@ Funcionalidade: Criar Grupo
             E tenho contato no aplicativo "WhatsApp"
             E que estou com aplicativo do whats aberto na aba "Conversas"
 
+    
     CT-0003
+    @sprint1
     Cenario: Validar a criação do novo grupo com as informações básicas
         Quando clico no botão "Novo grupo"
             E seleciono entre 1 e 256 participantes
