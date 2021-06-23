@@ -8,7 +8,7 @@
 
     Como um usuário previamente cadastrado no WhatsApp E com o aplicativo WhatsApp instalado
     Quero adicionar um novo número de contato
-    Para que eu possa interagir com eles
+    Para que eu possa interagir com ele
 
     Contexto: Acessar aplicativo do Whatsapp
     Dado que tenho o aplicativo instalado no aparelho "Celular"
