@@ -1,7 +1,7 @@
-#encoding: UTF-8
-#language: pt
-#author: Jardeson Santos
-#version: 1.0
+#encoding:UTF-8
+#language:pt
+#author:Jardeson Santos
+#version:1.0
 #date: 22/06/2021
 
 Funcionalidade: Adicionar Contato
@@ -17,12 +17,14 @@ Funcionalidade: Adicionar Contato
       E acesso a tela de "Contatos"
       E clico no botão "Novo Contato" na tela "Contatos"
 
-  CT-0001
+  CT-0003
   @sprint1
-  Cenario: Validar a adição do novo contato no Whatsapp com as informações básicas
-    Quando acesso a tela "Contatos"
-      E seleciono a opção "Novo contato"
-      E forneço o Nome "José", 
-      E forneço o Telefone "88 91234-5678"
-      E clico em "Salvar"
-    Entao visualizo a mensagem "Contato salvo!"
+  Esquema do Cenario: Validar variações de informações básicas para adição do novo contato no whatsapp
+    Quando forneço as informações "Nome", "Telefone"
+    Entao visualizo os dados "Jardeson", "99 98765-4321"
+
+    Exemplos:
+      | Nome       | Telefone        |
+      | "Jardeson" | "99 98765-4321" |
+      | "Juliana"  | "88 98888-7777" |
+      | "Raisa"    | "77 97777-6666" |

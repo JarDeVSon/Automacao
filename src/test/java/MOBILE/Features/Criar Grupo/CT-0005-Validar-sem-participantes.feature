@@ -17,14 +17,11 @@ Funcionalidade: Criar Grupo
         Dado que tenho o aplicativo instalado no aparelho "Celular"
             E tenho contato no aplicativo "WhatsApp"
             E que estou com aplicativo do whats aberto na aba "Conversas"
-
-    
-    CT-0003
+            
+    CT-00045
     @sprint1
-    Cenario: Validar a criação do novo grupo com as informações básicas
+    Cenario: Validar a criação do novo grupo sem participantes
         Quando clico no botão "Novo grupo"
-            E seleciono entre 1 e 256 participantes
-            E forneço um assunto "Estudo p Bootcamp"
-            E uma foto opcional
-        Entao visualizo a mensagem "Grupo criado!"
-    
+            E não seleciono entre 1 e 256 participantes
+        Entao visualizo a tela de "Novo grupo"
+        E visualizo a mensagem "Pelo menos 1 contato deve ser selecionado" 
