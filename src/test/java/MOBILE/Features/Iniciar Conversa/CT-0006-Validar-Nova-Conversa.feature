@@ -17,8 +17,8 @@ Funcionalidade: Iniciar Conversa
         Dado que tenho o aplicativo instalado no aparelho "Celular"
             E tenho contato no aplicativo "WhatsApp"
             E que estou com aplicativo do whats aberto na aba "Conversas"
-            E acesso a tela de "Contatos"
-
+    
+    CT-0006
     Cenario: Validar uma nova conversa
         Quando acessoa tela de "Contatos"
             E seleciono um contato disponivel
