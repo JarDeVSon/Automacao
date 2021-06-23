@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "diemasmichiels.emulate"
+        "diemasmichiels.emulate",
+        "stevejpurves.cucumber",
+        "alexkrechik.cucumberautocomplete"
     ]
 }
